@@ -12,7 +12,6 @@ const closeModal = function () {
 const openModal = function () {
   console.log('Button Clicked');
   modal.classList.remove('hidden');
-  overlay.classList.remove('hidden');
 };
 
 for (let i = 0; i < btnsOpenModal.length; i++)
